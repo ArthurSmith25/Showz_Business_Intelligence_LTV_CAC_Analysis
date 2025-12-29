@@ -1,16 +1,21 @@
-# Python bytecode (archivos temporales de ejecución)
+# Entorno virtual
+venv_showz/
+env/
+venv/
+.venv/
+
+# Archivos de datos (Datasets)
+*.csv
+*.xlsx
+*.json
+
+# Archivos temporales de Jupyter y Python
+.ipynb_checkpoints/
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Virtual environments (si usas entornos virtuales)
-venv/
-env/
-.env
-
-# Archivos de sistema (Mac y Windows)
+# Carpetas de sistema o IDE
+.vscode/
+.idea/
 .DS_Store
-Thumbs.db
